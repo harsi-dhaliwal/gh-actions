@@ -1,0 +1,10 @@
+name: simple workflow
+on: workflow_dispatch
+jobs:
+    first:
+        runs-on: ubuntu-20.04
+        steps:
+            - name: echo1
+              run: echo Hello
+            - name: echo2
+              run: echo World
