@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Emit Information
-        run: echo ${{toJson(github)}}
+        run: echo "${{toJson(github)}}"
     
